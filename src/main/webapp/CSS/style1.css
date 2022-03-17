@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Satisfy&display=swap');
+a{
+    color: #f7efef !important;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+
+    color: var(--secondry-color);
+}
+.navbar-st{
+    background-color: #8e746f !important;
+    box-shadow: 0px -2px 8px #090708;
+    font-family: sans-serif;
+
+}
+
+:root{
+    --primary-color:#A82C48;
+    --secondry-color: #43121d;
+    --third-color: #f98169;
+    --white-color:#fff;
+    --textcolor: #555;
+    --text-gray:#999;
+    --black-color:#000;
+
+}
+
+
+
+body{
+
+}
+
+p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+}
+
+.main-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: var(--primary-color);
+    border: 0.1875rem solid var(--primary-color);
+    color: var(--white-color);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgb(0 0 0 / 19%);
+    -webkit-transition: all .4s easy-out os;
+    -o-transition: all .4s easy-out 0s;
+    -moz-transition: all .4s easy-out os;
+    transition: all .4s easy-out os;
+}
+
+.main-btn:hover{
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.wraper{
+    padding-top: 8.25rem;
+}
+.text-content{
+    width: 70%;
+    margin: auto;
+}
+
+/*================================
+            Header
+================================*/    
+
+
+.top-banner{
+    width: 100%;
+    height: 535px;
+    text-align: center;
+    background-size: 100% 100%;
+    background:rgba(0,0,0,0.37) url('../images/Background/b4.jpg') ;
+    background-blend-mode: darken;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    padding: 14.875rem 0.9375rem;
+}
+.top-banner h1{
+
+    font-size: 60px;
+    font-family: 'Merienda', cursive;
+    color: var(--white-color);
+}
+.category h1{
+    color: #883211;
+    font-size: 50px;
+    padding-bottom: 10px;
+    background-color: #efeaea;
+    box-shadow: 0px -2px 10px #060d1070;
+}
+
+.categoryUser h1{
+    color: #883211;
+    font-size: 50px;
+    padding-bottom: 10px;
+    background-color: #efeaea;
+    box-shadow: 0px -12px 8px #8d8d8e;
+}
+
+.category p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+
+}
+.categoryUser p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+
+}
+.category{
+
+    width:auto;
+    height: auto;
+}
+
+/*.products{
+    padding: 20px;
+   width: auto;
+   height: auto;
+}*/
+.products p{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: 1px;
+
+}
+
+
+/*========================= User Style =========================*/
+
+.top-bannerUser{
+    width: 100%;
+    height: 535px;
+    text-align: center;
+    background-size: 100% 100%;
+    background:rgba(0,0,0,0.40) url('../images/Background/b3.jpg') ; 
+    background-blend-mode: darken;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    padding: 14.875rem 0.9375rem;
+}
+.top-bannerUser h1{
+
+    font-size: 60px;
+    font-family: 'Merienda', cursive;
+    color: var(--white-color);
+}
+
